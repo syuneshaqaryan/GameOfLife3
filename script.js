@@ -7,7 +7,7 @@ let amenakerArr = [];
 let doktorArr = [];
 
 function setup() {
-    matrixGenerator(40, 120, 20, 10, 10, 3);
+    matrixGenerator(10, 50, 20, 10, 10, 3);
     frameRate(8);
     createCanvas(matrix[0].length * side, matrix.length * side);
     background('#acacac');
